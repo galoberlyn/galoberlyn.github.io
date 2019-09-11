@@ -1,0 +1,87 @@
+#particles-div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0a0d0f;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+body {
+    margin:;
+}
+
+.land {
+    position:absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.color-teal {
+    color: #03DAc6;
+}
+
+.text-grey {
+    color: #E0E0E0;
+}
+
+.landing-font {
+    font-size: 4em;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-learn {
+    margin-top: 4%;
+    background: transparent;
+    border-radius: 3px;
+    border-color: #03DAc6;
+    padding: 0.5rem 3rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+
+.btn-learn:hover {
+    background: #03DAc6;
+    color: black;
+}
+
+.typed-cursor {
+    color: #03DAc6;
+}
+
+/*mobile*/
+@media only screen and (max-width:480px) {
+  .btn-learn {
+    font-size: 1em;
+  }
+  .landing-font {
+    font-size: 3em;
+  }
+}
+
+/*ipad*/
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation:portrait) {
+  .btn-learn {
+    font-size: 2em;
+  }
+  .landing-font {
+    font-size: 5em;
+  }
+}
