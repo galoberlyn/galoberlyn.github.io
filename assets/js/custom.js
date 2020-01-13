@@ -1,6 +1,6 @@
 $(document).ready(function () {
     setTimeout(function(){ 
-        $('.btn-learn').fadeIn(2000).removeClass('hidden');
+        $('.btn-learn').fadeIn(1700).removeClass('hidden');
      }, 3000);
 
     var options = {
@@ -36,3 +36,7 @@ function scroller() {
         navbar.classList.remove("sticky");
     }
 }
+
+$('li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet"  type='text/css'>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
@@ -28,9 +29,9 @@
     </header>
 
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-nav">
-      <a class="logo" href="#header"> &lt;GG&gt;</a>
+      <a class="logo" href="#header"><img class="logo-gg" src="assets/img/galo-gg.png"/> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars" style="color: white;"></i>
         </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -41,10 +42,10 @@
             <a class="nav-link-custom text-grey" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link-custom text-grey" href="#">My Work</a>
+            <a class="nav-link-custom text-grey" href="#my-work">My Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link-custom text-grey" href="#">Contact</a>
+            <a class="nav-link-custom text-grey" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -52,85 +53,213 @@
 
     <div class="content">
       <section id="about">
-          <div class="container" style="margin-top: 10%;">
+          <div class="container top-8" >
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-5">
                     <div class="card">
                         <img src="assets/img/download.png" class="card-img-top rounded-circle " alt="...">
                         <div class="card-body">
-                          <h4 class="card-title center">Galo Garlejo, Full Stack Developer</h4>
-                          <p class="card-text center">Developer with experience in Full stack development and calls himself a Front end enthusiast, building projects from ground up, API building and testing, specializes in LAMP and MERN stack, can work with backend, frontend, or DevOps.</p>
+                          <p class="card-text center">Developer with experience in Full Stack Application Development enthusiast, building projects from ground up,
+                             API development and testing, specializes in LAMP and MERN stack, can work with backend, frontend, or DevOps.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 offset-md-1">
                   <h3 class="center"> My Knowledge Level in Software</h3><br/>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                         </div>
-                        <span class="progress-type"><img src="assets/img/node.png"/>Node.js/Express Framework </span>
+                        <span class="progress-type">Node.js/Express Framework </span>
                         
                     </div>
                     <br>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
                         </div>
-                        <span class="progress-type"><img src="assets/img/lara.png"/>PHP/Laravel/Lumen</span>
+                        <span class="progress-type">PHP/Laravel/Lumen</span>
                     </div>
                     <br>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
                         </div>
-                        <span class="progress-type"><img src="assets/img/java.png"/>Java, C++</span>
+                        <span class="progress-type">Java, C++</span>
                     </div>
                     <br>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
                             <span class="sr-only">3</span>
                         </div>
-                        <span class="progress-type"><img src="assets/img/js.png"/>JavaScript/ES6</span>
+                        <span class="progress-type">JavaScript/ES6</span>
                     </div>
                     <br>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%">
                         </div>
-                        <span class="progress-type"><img src="assets/img/react.png"/>Reactjs, Single Page Apps, PWA's</span>
+                        <span class="progress-type">Reactjs, Single Page Apps, PWA's</span>
                     </div>
                     <br>
                     <div class="progress">
                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
                         </div>
-                        <span class="progress-type"><img src="assets/img/website.png"/>WordPress, HTML, CSS / CSS3, jQuery</span>
+                        <span class="progress-type">WordPress, HTML, CSS / CSS3, jQuery</span>
                     </div>
                     <br>
                     <div class="progress">
                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
                         </div>
-                        <span class="progress-type"><img src="assets/img/linux.png"/>Linux/Unix, Windows Servers</span>
+                        <span class="progress-type">Linux/Unix, Mac, Windows Servers</span>
                     </div>
                     <br>
                     <div class="progress">
                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" style="width: 83%">
                         </div>
-                        <span class="progress-type"><img src="assets/img/cloud.png"/>Google Cloud, Apache, Nginx, GIT/SVN, BitBucket etc</span>
+                        <span class="progress-type">Google Cloud, Apache, Nginx, GIT/SVN, BitBucket etc</span>
                     </div>
                     <br>
                     <div class="progress">
                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
                         </div>
-                        <span class="progress-type"><img src="assets/img/database.png"/>MySQL/PostgreSQL</span>
+                        <span class="progress-type">MySQL/PostgreSQL</span>
                     </div>
                     <br>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%">
-                        </div>
-                        <span class="progress-type"><img src="assets/img/design.png"/>Common Design Patterns (MVC, OOP, Repository)</span>
-                    </div>
                 </div>
             </div>
           </div>
       </section>
 
+      <section id="my-work" >
+        <div class="container top-8">
+          <h1 class="brand-text center"> Projects I've Worked on </h1>
+            <div class="row top-8">
+
+              <div class="col-md-4 container-fluid">
+                <div class="card mx-auto mb-4">
+                  <img class="card-img-top" src="assets/img/youtube.png" alt="Youtube">
+                  <div class="card-body card-body-mod">
+                    <h5 class="card-title">Simple Youtube
+                      <a href="https://github.com/galoberlyn/Simple-Youtube" target="_blank"><small> src code </small></a>
+                    </h5>
+                    <p class="card-text">A simple video uploading/streaming web app</p>
+
+                  </div>
+                </div>
+              </div> 
+
+              <div class="col-md-4">
+                <div class="card mx-auto mb-4">
+                  <img class="card-img-top" src="assets/img/gym.png" alt="Gym">
+                  <div class="card-body card-body-mod">
+                    <h5 class="card-title brand">Gamified Gym Membership
+                      <a href="https://github.com/galoberlyn/altitude_gym" target="_blank"><small> src code </small></a></h5>
+                    <p class="card-text">A membership tracking and monitoring software. </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-4">
+                <div class="card mx-auto mb-4">
+                  <img class="card-img-top" src="assets/img/others.png" alt="Others">
+                  <div class="card-body card-body-mod">
+                    <h5 class="card-title"> Others
+                    </h5>
+                    <p class="card-text">Take a sneak peak of my projects 
+                      <a href="#" data-toggle="modal" data-target="#projects-modal">
+                        here
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container">
+                <p class="center text-grey text-mid col-md-6 offset-md-3" style="border: solid #03DAc6 1px"> 
+                  Key skills include API building and testing (REST), integrating with third party API's, Building web applications
+                  from ground up, Mobile responsiveness, Object Oriented Programming, Google Cloud Platform, WordPress, Linux etc.   
+                </p>
+              </div>
+
+
+
+            </div>
+        </div>
+
+        <!-- Modal -->
+      <div class="modal fade" id="projects-modal" tabindex="-1" role="dialog" aria-labelledby="projects-modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="projects-modal">Projects</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+
+              <a href="https://github.com/galoberlyn/request_app" target="_blank">
+                <div class="col-sm-12">
+                  <div class="tile-cyan">
+                    <div class="tile-header">
+                      <h3>Request App System</h3>
+                      <span>App to request, purchase order, and track inventory</span>
+                    </div>
+                  </div>
+                </div>
+              </a> 
+              <br>
+
+              <a href="https://www.alpharockcapital.com/" target="_blank">
+                <div class="col-sm-12">
+                  <div class="tile-cyan">
+                    <div class="tile-header">
+                      <h3>Company Website</h3>
+                      <span>A website created using wordpress</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <br>
+
+              <a href="https://www.github.com/galoberlyn" target="_blank">
+                <div class="col-sm-12">
+                  <div class="tile-cyan">
+                    <div class="tile-header">
+                      <h3>Let's follow each other on github!</h3>
+                      <span>github.com/galoberlyn</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      </section>
+
+      <section id="contact">
+        <div class="container top-8">
+          <h1> <span class="brand-text">Got something in mind? </span> <br> just say hello.</h1> </br>
+          <p class="text-large col-md-6"> Don't be a stranger, I'm always open to new ideas, projects, collaboration, opportunities and other subjects you want to discuss with me.
+            Let's build something together! &#128522;
+          </p> <br>
+          <p class="text-large col-md-12"> You can reach me here: gbgarlejo@gmail.com</p>
+          <p class="text-large col-md-12"> Instagram: <a href="https://www.instagram.com/galoberlyn" target="_blank">@galoberlyn</a></p>
+        </div>
+
+        
+
+
+      </section>
+
+      <footer id="sticky-footer" class="py-4">
+        <div class="container text-center">
+          <img class="logo-gg" src="assets/img/galo-gg.png"/> <small>Copyright 2020 &copy; Galo Berlyn D. Garlejo </small> 
+        </div>
+      </footer>
   </div>
 </body>
 

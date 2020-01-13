@@ -9,7 +9,6 @@
 
 canvas {
     display: block;
-    vertical-align: bottom;
 }
 
 body {
@@ -127,7 +126,7 @@ section {
   height: 100vh;
 }
 section:nth-of-type(2n) {
-  /* background-color: #fe4b74; */
+  background-color: #0a0d0f;
 }
 
 .navbar {
@@ -169,4 +168,50 @@ padding: 3px 10px 2px;
 
 .progress-type > img {
   padding-right: 2px;
+}
+
+p, .card-text {
+  font-size: 14px;
+}
+
+.brand-text {
+  color: #03DAc6;
+}
+
+.top-8 {
+  margin-top: 8%;
+}
+
+.tile-cyan {
+  background-color: #00b29e;
+  color: #fff;
+}
+
+.tile-header {
+  padding: 15px 20px;
+  padding-bottom: 40px;
+}
+
+.card-body-mod {
+  background-color: #E0E0E0 ;
+}
+
+.text-mid {
+  font-size: 16px;
+}
+
+.text-large {
+  font-size: 1em;
+}
+
+
+#sticky-footer {
+  flex-shrink: none;
+  background-color: #0a0d0f;
+  color: #e0e0e0;
+}
+
+.logo-gg {
+  height: 50px;
+  width: 100px;
 }
